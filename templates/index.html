@@ -1,0 +1,1182 @@
+<!DOCTYPE html> {% load static %}{% load widget_tweaks %}
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>UGT</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="{% static 'index/asset/css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Font Awesome CSS -->
+    <link href="{% static 'index/css/font-awesome.min.css' %}" rel="stylesheet">
+
+
+    <!-- Animate CSS -->
+    <link href="{% static 'index/css/animate.css' %}" rel="stylesheet">
+
+    <!-- Owl-Carousel -->
+    <link rel="stylesheet" href="{% static 'index/css/owl.carousel.css' %}">
+    <link rel="stylesheet" href="{% static 'index/css/owl.theme.css' %}">
+    <link rel="stylesheet" href="{% static 'index/css/owl.transitions.css' %}">
+
+    <!-- Custom CSS -->
+    <link href="{% static 'index/css/style.css' %}" rel="stylesheet">
+    <link href="{% static 'index/css/responsive.css' %}" rel="stylesheet">
+
+    <!-- Colors CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'index/css/color/green.css' %}">
+
+
+
+    <!-- Colors CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'index/css/color/green.css' %}" title="green">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+
+
+    <!-- Modernizer js -->
+    <script src="{% static 'index/js/modernizr.custom.js' %}"></script>
+
+
+
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        .footer-contact-info {
+            border: 4px solid blue;
+        }
+        
+        .footer-contact-info:hover {
+            box-shadow: 5px 10px 10px gray;
+        }
+    </style>
+
+</head>
+
+<body class="index">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="static/cb365e15-8d35-42a0-825f-6be0bba31a9b.png" height="70" width="70" style="border-radius: 50%;margin-top:-20px;" alt=""></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about-us">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#feature">Feature</a>
+                    </li>
+                    <!--<li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#service">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>-->
+                    <li>
+                        <a class="page-scroll" href=".fun-facts">Achievements</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#pricing">Pricing</a>
+                    </li>
+                    <!--<li>
+                        <a class="page-scroll" href="#latest-news">Latest News</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#testimonial">Testimonials</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#partner">Partner</a>
+                    </li>-->
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+
+
+    <!-- Start Home Page Slider -->
+    <section id="page-top">
+        <!-- Carousel -->
+        <div id="main-slide" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#main-slide" data-slide-to="0" class="active"></li>
+                <!--<li data-target="#main-slide" data-slide-to="1"></li>
+                <li data-target="#main-slide" data-slide-to="2"></li>-->
+            </ol>
+            <!--/ Indicators end-->
+
+            <!-- Carousel inner -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img class="img-responsive" src="{% static 'kids-1093758_1280.jpg' %}" alt="slider">
+                    <div class="slider-content">
+                        <div class="col-md-12 text-center">
+                            <h1 class="animated3">
+                                <span>The way of <strong>Success</strong></span>
+                            </h1>
+                            <p class="animated2" style="font-weight: bold;">UCHHWAASA GENERAL KNOWLEDGE TEST ( UGT )<br> A Thread of Development in the Direaction of Education</p>
+                            <a class="animated3 slider btn btn-primary btn-min-block" href="#">Junior Round</a><a class="animated3 slider btn btn-default btn-min-block" href="#">Senior Round</a>
+                        </div>
+                    </div>
+                </div>
+                <!--/ Carousel item end -->
+
+                <!--<div class="item">
+                    <img class="img-responsive" src="{% static 'index/images/header-back.png' %}" alt="slider">
+
+                    <div class="slider-content">
+                        <div class="col-md-12 text-center">
+                            <h1 class="animated1">
+                                <span>Welcome to <strong>Fame</strong></span>
+                            </h1>
+                            <p class="animated2">Generate a flood of new business with the<br> power of a digital media platform</p>
+                            <a href="#feature" class="page-scroll btn btn-primary animated3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img class="img-responsive" src="{% static 'index/images/galaxy.jpg' %}" alt="slider">
+                    <div class="slider-content">
+                        <div class="col-md-12 text-center">
+                            <h1 class="animated2">
+                                <span>The way of <strong>Success</strong></span>
+                            </h1>
+                            <p class="animated1">At vero eos et accusamus et iusto odio dignissimos<br> ducimus qui blanditiis praesentium voluptatum</p>
+                            <a class="animated3 slider btn btn-primary btn-min-block" href="#">Get Now</a><a class="animated3 slider btn btn-default btn-min-block" href="#">Live Demo</a>
+
+                        </div>
+                    </div>
+                </div>-->
+                <!--/ Carousel item end -->
+            </div>
+            <!-- Carousel inner end-->
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#main-slide" data-slide="prev">
+                <span><i class="fa fa-angle-left"></i></span>
+            </a>
+            <a class="right carousel-control" href="#main-slide" data-slide="next">
+                <span><i class="fa fa-angle-right"></i></span>
+            </a>
+        </div>
+        <!-- /carousel -->
+    </section>
+    <!-- End Home Page Slider -->
+
+
+    <!-- Start Feature Section -->
+    <section id="feature" class="feature-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="feature">
+                        <i class="fa fa-magic"></i>
+                        <div class="feature-content">
+                            <h4>Participations</h4>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-md-3 -->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="feature">
+                        <i class="fa fa-gift"></i>
+                        <div class="feature-content">
+                            <h4>Rewards</h4>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-md-3 -->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="feature">
+                        <i class="fa fa-wordpress"></i>
+                        <div class="feature-content">
+                            <h4>Subjects</h4>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-md-3 -->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="feature">
+                        <i class="fa fa-plug"></i>
+                        <div class="feature-content">
+                            <h4>Features</h4>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.row -->
+
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- End Feature Section -->
+
+
+    <!-- Start Call to Action Section -->
+
+    <!--<section class="call-to-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Libero tempore soluta nobis est eligendi</br> optio cumque nihil impedit minus id quod maxime </br>placeat facere possimus, omnis voluptas assumenda est</h1>
+                    <button type="submit" class="btn btn-primary">Buy This Template</button>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <!-- End Call to Action Section -->
+
+
+    <!-- Start Portfolio Modal Section -->
+    <div class="section-modal modal fade" id="portfolio-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="section-title text-center">
+                        <h3>Portfolio Details</h3>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate</p>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <img src="images/portfolio/img1.jpg" class="img-responsive" alt="..">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/portfolio/img1.jpg" class="img-responsive" alt="..">
+                    </div>
+
+                </div>
+                <!-- /.row -->
+            </div>
+        </div>
+    </div>
+    <!-- End Portfolio Modal Section -->
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="footer-contact-info">
+                    <h4 style="font-weight: bold;">Junior Round</h4>
+                    <ul>
+                        <li style="font-size: 17px;"><strong style="font-weight: bold;">Classes :</strong> 8 <sup>th</sup> / 9 <sup>th</sup> / 10 <sup>th</sup> </li>
+                        <li style="font-size: 17px;"><strong style="font-weight: bold;">Subjects :</strong> Gk,Quiz </li>
+                        <li style="font-size: 17px;"><strong style="font-weight: bold;">Total Mark :</strong> 100</li>
+                        <li style="font-size: 17px;"><strong style="font-weight: bold;">Time Duration :</strong> 1 hr 30 mins</li>
+                        <li style="font-size: 17px;"><strong style="font-weight: bold;">Question Type :</strong> Multiple Choice</li>
+                        <li style="font-size: 17px;"><strong style="font-weight: bold;">Registration Fee :</strong> 100 Rupees</li><br>
+                        <li><button class="btn btn-warning">Register Here</button></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+                <div class="footer-contact-info">
+                    <h4 style="font-weight: bold;">senior round</h4>
+                    <ul>
+                        <li style="font-size: 17px;"><strong style="font-weight: bold;">Classes :</strong> UG Students (+2 / +3) </li>
+                        <li style="font-size: 17px;"><strong style="font-weight: bold;">Subjects :</strong> Gk,Quiz </li>
+                        <li style="font-size: 17px;"><strong style="font-weight: bold;">Total Mark :</strong> 100</li>
+                        <li style="font-size: 17px;"><strong style="font-weight: bold;">Time Duration :</strong> 1 hr 30 mins</li>
+                        <li style="font-size: 17px;"><strong style="font-weight: bold;">Question Type :</strong> Multiple Choice</li>
+                        <li style="font-size: 17px;"><strong style="font-weight: bold;">Registration Fee :</strong> 100 Rupees</li><br>
+                        <li><button class="btn btn-danger">Register Here</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Start About Us Section -->
+    <section id="about-us" class="about-us-section-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="section-title text-center">
+                        <h3>About Us</h3>
+                        <br>
+                        <p style="color: darkblue;"><strong>UCHHWAASA GENERAL KNOWLEDGE TEST ( UGT )</strong> - A Thread of Development in Direaction of Education. <br><br> Mainly it has been developed to empower the hidden talent of Rural students in the verenda of Competitive
+                            exams.
+                            <br><br> Each and every students of High Schools and UG Colleges will be beneficial by this Exam. <br><br> Since 2017 it has been working in the various schools and colleges by organizing two Modes of examinations <br> in every
+                            year bearing junior Round for High School Students (Class 8 <sup>th</sup> / 9 <sup>th</sup> / 10 <sup>th</sup>) and Senior Round For UG Students (+2 / +3 ). <br><br> We hope this UGT will bring a new Revolution for those Students
+                            in the chapter of Education.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="welcome-section text-center">
+                        <img src="{% static 'index/images/about-01.jpg' %}" class="img-responsive" alt="..">
+                        <h4>Philosophy</h4>
+                        <div class="border"></div>
+                        <p>Duis aute irure dolor in reprehen derit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Lorem reprehenderit</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="welcome-section text-center">
+                        <img src="{% static 'index/images/about-02.jpg' %}" class="img-responsive" alt="..">
+                        <h4>Mission & Vission</h4>
+                        <div class="border"></div>
+                        <p>Duis aute irure dolor in reprehen derit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Lorem reprehenderit</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="welcome-section text-center">
+                        <img src="{% static 'index/images/about-03.jpg' %}" class="img-responsive" alt="..">
+                        <h4>Value & Rules</h4>
+                        <div class="border"></div>
+                        <p>Duis aute irure dolor in reprehen derit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Lorem reprehenderit</p>
+                    </div>
+                </div>
+                <div id="exams" style="align-content: center;margin-left:20%;">
+                    <a class="animated3 slider btn btn-primary btn-min-block" href="#">Junior Round</a><a class="animated3 slider btn btn-default btn-min-block" href="#">Senior Round</a>
+                </div>
+            </div>
+            <!-- /.row -->
+
+        </div>
+        <!-- /.container -->
+
+    </section>
+    <!-- End About Us Section -->
+
+
+    <!-- Start About Us Section 2 -->
+    <!--<div class="about-us-section-2">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="skill-shortcode">
+
+                        
+                        <div class="skill">
+                            <p>Web Design</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-percentage="60">
+                                    <span class="progress-bar-span">60%</span>
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="skill">
+                            <p>HTML & CSS</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-percentage="95">
+                                    <span class="progress-bar-span">95%</span>
+                                    <span class="sr-only">95% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="skill">
+                            <p>Wordpress</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-percentage="80">
+                                    <span class="progress-bar-span">80%</span>
+                                    <span class="sr-only">80% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="skill">
+                            <p>Joomla</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-percentage="100">
+                                    <span class="progress-bar-span">100%</span>
+                                    <span class="sr-only">100% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="skill">
+                            <p>Extension</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-percentage="70">
+                                    <span class="progress-bar-span">70%</span>
+                                    <span class="sr-only">70% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div id="carousel-example-generic" class="carousel slide about-slide" data-ride="carousel">
+                        
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+
+                        
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="images/about-01.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/about-02.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/about-03.jpg" alt="">
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>-->
+    <!-- Start About Us Section 2 -->
+
+    <br>
+    <br>
+
+
+    <!-- Start Fun Facts Section -->
+    <section class="fun-facts">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="counter-item">
+                        <i class="fa fa-male"></i>
+                        <div class="timer" id="item1" data-to="991" data-speed="5000"></div>
+                        <h5>Students Registered</h5>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="counter-item">
+                        <i class="fa fa-check"></i>
+                        <div class="timer" id="item2" data-to="7394" data-speed="5000"></div>
+                        <h5>School Participated</h5>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="counter-item">
+                        <i class="fa fa-code"></i>
+                        <div class="timer" id="item3" data-to="18745" data-speed="5000"></div>
+                        <h5>College Participated</h5>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="counter-item">
+                        <i class="fa fa-cloud-upload"></i>
+                        <div class="timer" id="item4" data-to="8423" data-speed="5000"></div>
+                        <h5>Exams Conducted</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Fun Facts Section -->
+
+
+
+    <!-- Start Team Member Section -->
+    <!--<section id="team" class="team-member-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="section-title text-center">
+                        <h3>Our Team</h3>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="team-section">
+
+                        <div class="our-team">
+
+                            <div class="team-member">
+                                <img src="images/team/manage-1.png" class="img-responsive" alt="">
+                                <div class="team-details">
+                                    <h4>John Doe</h4>
+                                    <p>Founder & Director</p>
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="team-member">
+                                <img src="images/team/manage-2.png" class="img-responsive" alt="">
+                                <div class="team-details">
+                                    <h4>John Doe</h4>
+                                    <p>Founder & Director</p>
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="team-member">
+                                <img src="images/team/manage-3.png" class="img-responsive" alt="">
+                                <div class="team-details">
+                                    <h4>John Doe</h4>
+                                    <p>Founder & Director</p>
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="team-member">
+                                <img src="images/team/manage-4.png" class="img-responsive" alt="">
+                                <div class="team-details">
+                                    <h4>John Doe</h4>
+                                    <p>Founder & Director</p>
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="team-member">
+                                <img src="images/team/manage-1.png" class="img-responsive" alt="">
+                                <div class="team-details">
+                                    <h4>John Doe</h4>
+                                    <p>Founder & Director</p>
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="team-member">
+                                <img src="images/team/manage-2.png" class="img-responsive" alt="">
+                                <div class="team-details">
+                                    <h4>John Doe</h4>
+                                    <p>Founder & Director</p>
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>-->
+    <!-- End Team Member Section -->
+
+    <br>
+    <br>
+
+    <!-- Start Pricing Table Section -->
+    <div id="pricing" class="pricing-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-12">
+                        <div class="section-title text-center">
+                            <h3>Our Examinations</h3>
+                            <p class="white-text">Currently We Conduct Exams on three phases.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="pricing">
+
+                    <div class="col-md-12 col-lg-12">
+                        <div class="pricing-table">
+                            <div class="plan-name">
+                                <h3>Junior Round</h3>
+                            </div>
+                            <!--<div class="plan-price">
+                                <div class="price-value">$49<span>.00</span></div>
+                                <div class="interval">per month</div>
+                            </div>-->
+                            <div class="plan-list">
+                                <ul>
+                                    <li></li>
+                                    <li style="font-size: 17px;"><strong style="font-weight: bold;">Classes :</strong> 8 <sup>th</sup> / 9 <sup>th</sup> / 10 <sup>th</sup> Students </li>
+                                    <li style="font-size: 17px;"><strong style="font-weight: bold;">Subjects :</strong> Gk,Quiz </li>
+                                    <li style="font-size: 17px;"><strong style="font-weight: bold;">Total Mark :</strong> 100</li>
+                                    <li style="font-size: 17px;"><strong style="font-weight: bold;">Time Duration :</strong> 1 hr 30 mins</li>
+                                    <li style="font-size: 17px;"><strong style="font-weight: bold;">Question Type :</strong> Multiple Choice</li>
+                                    <li style="font-size: 17px;"><strong style="font-weight: bold;">Registration Fee :</strong> 100 Rupees</li><br>
+                                    <li></li>
+                                </ul>
+                            </div>
+                            <div class="plan-signup">
+                                <button class="btn btn-warning" data-toggle="modal" data-target="#juniormodal">Register Here</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-lg-12">
+                        <div class="pricing-table">
+                            <div class="plan-name">
+                                <h3>Senior Round</h3>
+                            </div>
+                            <!--<div class="plan-price">
+                                <div class="price-value">$49<span>.00</span></div>
+                                <div class="interval">per month</div>
+                            </div>-->
+                            <div class="plan-list">
+                                <ul>
+                                    <li></li>
+                                    <li style="font-size: 17px;"><strong style="font-weight: bold;">Classes :</strong> UG Students (+2 / +3 / ITI / Diploma) </li>
+                                    <li style="font-size: 17px;"><strong style="font-weight: bold;">Subjects :</strong> Gk,Quiz </li>
+                                    <li style="font-size: 17px;"><strong style="font-weight: bold;">Total Mark :</strong> 100</li>
+                                    <li style="font-size: 17px;"><strong style="font-weight: bold;">Time Duration :</strong> 1 hr 30 mins</li>
+                                    <li style="font-size: 17px;"><strong style="font-weight: bold;">Question Type :</strong> Multiple Choice</li>
+                                    <li style="font-size: 17px;"><strong style="font-weight: bold;">Registration Fee :</strong> 100 Rupees</li><br>
+                                    <li></li>
+                                </ul>
+                            </div>
+                            <div class="plan-signup">
+                                <button class="btn btn-danger" data-toggle="modal" data-target="#seniormodal">Register Here</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-12">
+                        <div class="pricing-table">
+                            <div class="plan-name">
+                                <h3>Engineering Round</h3>
+                            </div>
+                            <!--<div class="plan-price">
+                                <div class="price-value">$49<span>.00</span></div>
+                                <div class="interval">Engineering Round</div>
+                            </div>-->
+                            <div class="plan-list">
+                                <ul>
+                                    <li></li>
+                                    <li style="font-size: 17px;"><strong style="font-weight: bold;">Classes :</strong> Engineering Students </li>
+                                    <li style="font-size: 17px;"><strong style="font-weight: bold;">Subjects :</strong> Gk,Quiz </li>
+                                    <li style="font-size: 17px;"><strong style="font-weight: bold;">Total Mark :</strong> 100</li>
+                                    <li style="font-size: 17px;"><strong style="font-weight: bold;">Time Duration :</strong> 1 hr 30 mins</li>
+                                    <li style="font-size: 17px;"><strong style="font-weight: bold;">Question Type :</strong> Multiple Choice</li>
+                                    <li style="font-size: 17px;"><strong style="font-weight: bold;">Registration Fee :</strong> 100 Rupees</li><br>
+                                    <li></li>
+                                </ul>
+                            </div>
+                            <div class="plan-signup">
+                                <button class="btn btn-info" data-toggle="modal" data-target="#engineeringmodal">Register Here</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="juniormodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="juniormodalTitle" style="font-weight: bold;color:brown;text-align:center;">Junior Round Registration</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <form method="post" enctype="multipart/form-data" id="modal-details">
+                    <div class="modal-body">
+
+                        <h6 style="font-weight: bold;color:red;text-align:center;">Mobile number should be unique which was not used previously.</h6>
+                        <h6 style="font-weight: bold;color:red;text-align:center;">Upload your passport size image on the image upload field.</h6>
+                        <br> {% csrf_token %} {% for hidden_field in junior_form.hidden_fields %} {{ hidden_field }} {% endfor %} {% if junior_form.non_field_errors %}
+                        <div class="alert alert-danger" role="alert">
+                            {% for error in junior_form.non_field_errors %} {{ error }} {% endfor %}
+                        </div>
+                        {% endif %} {% for field in junior_form.visible_fields %}
+                        <div class="form-group">
+                            {{ field.label_tag }} {% if junior_form.is_bound %} {% if field.errors %} {% render_field field class="form-control is-invalid" %} {% for error in field.errors %}
+                            <div class="invalid-feedback">
+                                {{ error }}
+                            </div>
+                            {% endfor %} {% else %} {% render_field field class="form-control is-valid" %} {% endif %} {% else %} {% render_field field class="form-control" %} {% endif %} {% if field.help_text %}
+                            <small class="form-text text-muted">{{ field.help_text }}</small> {% endif %}
+                        </div>
+                        {% endfor %}
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary" form="modal-details">Submit</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="seniormodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="seniormodalTitle">Senior Round Registration</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="engineeringmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="engineeringmodalTitle">Engineering Round Registrtion</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Pricing Table Section -->
+
+    <br>
+    <br>
+
+    <!-- Start Latest News Section -->
+    <!--<section id="latest-news" class="latest-news-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center">
+                        <h3>Latest News</h3>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="latest-news">
+                    <div class="col-md-12">
+                        <div class="latest-post">
+                            <img src="images/about-01.jpg" class="img-responsive" alt="">
+                            <h4><a href="#">Standard Post with Image</a></h4>
+                            <div class="post-details">
+                                <span class="date"><strong>31</strong> <br>Dec , 2014</span>
+
+                            </div>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                            </p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="latest-post">
+                            <img src="images/about-02.jpg" class="img-responsive" alt="">
+                            <h4><a href="#">Standard Post with Image</a></h4>
+                            <div class="post-details">
+                                <span class="date"><strong>17</strong> <br>Feb , 2014</span>
+
+                            </div>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                            </p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="latest-post">
+                            <img src="images/about-03.jpg" class="img-responsive" alt="">
+                            <h4><a href="#">Standard Post with Image</a></h4>
+                            <div class="post-details">
+                                <span class="date"><strong>08</strong> <br>Aug , 2014</span>
+
+                            </div>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                            </p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="latest-post">
+                            <img src="images/about-01.jpg" class="img-responsive" alt="">
+                            <h4><a href="#">Standard Post with Image</a></h4>
+                            <div class="post-details">
+                                <span class="date"><strong>08</strong> <br>Aug , 2014</span>
+
+                            </div>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                            </p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="latest-post">
+                            <img src="images/about-02.jpg" class="img-responsive" alt="">
+                            <h4><a href="#">Standard Post with Image</a></h4>
+                            <div class="post-details">
+                                <span class="date"><strong>08</strong> <br>Aug , 2014</span>
+
+                            </div>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                            </p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="latest-post">
+                            <img src="images/about-03.jpg" class="img-responsive" alt="">
+                            <h4><a href="#">Standard Post with Image</a></h4>
+                            <div class="post-details">
+                                <span class="date"><strong>08</strong> <br>Aug , 2014</span>
+
+                            </div>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                            </p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <!-- End Latest News Section -->
+
+
+
+
+
+
+    <!-- Start Testimonial Section -->
+    <!--<div id="testimonial" class="testimonial-section">
+        <div class="container">
+            
+            <div id="testimonial-carousel" class="testimonials-carousel">
+               
+                <div class="testimonials item">
+                    <div class="testimonial-content">
+                        <img src="images/testimonial/face_1.png" alt="">
+                        <div class="testimonial-author">
+                            <div class="author">John Doe</div>
+                            <div class="designation">Organization Founder</div>
+                        </div>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque<br> laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+                    </div>
+                </div>
+                
+                <div class="testimonials item">
+                    <div class="testimonial-content">
+                        <img src="images/testimonial/face_2.png" alt="">
+                        <div class="testimonial-author">
+                            <div class="author">Jane Doe</div>
+                            <div class="designation">Lead Developer</div>
+                        </div>
+                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia<br> consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                    </div>
+                </div>
+               
+                <div class="testimonials item">
+                    <div class="testimonial-content">
+                        <img src="images/testimonial/face_3.png" alt="">
+                        <div class="testimonial-author">
+                            <div class="author">John Doe</div>
+                            <div class="designation">Honorable Customer</div>
+                        </div>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit<br> anim laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>-->
+    <!-- End Testimonial Section -->
+
+
+
+
+    <!--<section id="partner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center">
+                        <h3>Our Honorable Partner</h3>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="clients">
+
+                    <div class="col-md-12">
+                        <img src="images/logos/themeforest.jpg" class="img-responsive" alt="...">
+                    </div>
+
+                    <div class="col-md-12">
+                        <img src="images/logos/creative-market.jpg" class="img-responsive" alt="...">
+                    </div>
+
+                    <div class="col-md-12">
+                        <img src="images/logos/designmodo.jpg" class="img-responsive" alt="...">
+                    </div>
+
+                    <div class="col-md-12">
+                        <img src="images/logos/creative-market.jpg" class="img-responsive" alt="...">
+                    </div>
+
+                    <div class="col-md-12">
+                        <img src="images/logos/microlancer.jpg" class="img-responsive" alt="...">
+                    </div>
+
+                    <div class="col-md-12">
+                        <img src="images/logos/themeforest.jpg" class="img-responsive" alt="...">
+                    </div>
+
+                    <div class="col-md-12">
+                        <img src="images/logos/microlancer.jpg" class="img-responsive" alt="...">
+                    </div>
+
+                    <div class="col-md-12">
+                        <img src="images/logos/designmodo.jpg" class="img-responsive" alt="...">
+                    </div>
+
+                    <div class="col-md-12">
+                        <img src="images/logos/creative-market.jpg" class="img-responsive" alt="...">
+                    </div>
+
+                    <div class="col-md-12">
+                        <img src="images/logos/designmodo.jpg" class="img-responsive" alt="...">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+    <!--<section class="buy-pro" style="padding: 100px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="pro-block text-center" style="padding: 40px 50px; background: white; box-shadow: 0px 2px 28px 0px #7777775e; border-radius: 5px;">
+                        <h1 style="font-size: 25px; line-height: 1; font-weight: 600;">You have downloaded free version of <a href="https://themefisher.com/products/fame-free-html-website-template/">Fame</a>.</h1>
+                        <h5 style="padding: 10px 0 15px 0;">To get full access of this page please purchase the premium version</h5>
+                        <h5 style="font-weight: 700;">Why Premium?</h5>
+                        <ul class="list-unstyled" style="margin-bottom: 20px; ">
+                            <li>Full Template Pack</li>
+                            <li>Priority Support</li>
+                            <li>Documentation Included</li>
+                            <li>Monthly Update</li>
+                            <li>Lifetime Download</li>
+                            <li>Personal and commercial Use</li>
+                            <li>One time payment</li>
+                        </ul>
+                        <a href="https://themefisher.com/products/fame-free-html-website-template/#download-area" target="_blank" class="btn btn-primary" style="margin-bottom: 20px; letter-spacing: 2px; font-weight: 700; padding: 16px 45px;">Get Premium
+							Version</a>
+                        <p><strong>By purchasing the pro version you are actually helping us to contribute the whole community by
+								providing free templates.</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-contact-info">
+                        <h4>Contact info</h4>
+                        <ul>
+                            <li><strong>E-mail :</strong> your-email@mail.com</li>
+                            <li><strong>Phone :</strong> +8801-6778776</li>
+                            <li><strong>Mobile :</strong> +8801-45565378</li>
+                            <li><strong>Web :</strong> yourdomain.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-md-offset-4">
+                    <div class="footer-contact-info">
+                        <h4>Working Hours</h4>
+                        <ul>
+                            <li><strong>Mon-Wed :</strong> 9 am to 5 pm</li>
+                            <li><strong>Thurs-Fri :</strong> 12 pm to 10 pm</li>
+                            <li><strong>Sat :</strong> 9 am to 3 pm</li>
+                            <li><strong>Sunday :</strong> Closed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="style-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-xs-12">
+                        <span class="copyright">Copyright &copy; <a href="http://guardiantheme.com">UGT</a> 2020</span>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="footer-social text-center">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="footer-link">
+                            <ul class="pull-right">
+                                <!--<li><a href="#">Privacy Policy</a>
+                                </li>
+                                <li><a href="#">Terms of Use</a>
+                                </li>-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+    <div id="loader">
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
+
+
+
+    <!-- jQuery Version 2.1.1 -->
+    <script src="{% static 'index/js/jquery-2.1.1.min.js' %}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{% static 'index/asset/js/bootstrap.min.js' %}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{% static 'index/js/jquery.easing.1.3.js' %}"></script>
+    <script src="{% static 'index/js/classie.js' %}"></script>
+    <script src="{% static 'index/js/count-to.js' %}"></script>
+    <script src="{% static 'index/js/jquery.appear.js' %}"></script>
+    <script src="{% static 'index/js/cbpAnimatedHeader.js' %}"></script>
+    <script src="{% static 'index/js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'index/js/jquery.fitvids.js' %}"></script>
+    <script src="{% static 'index/js/styleswitcher.js' %}"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="{% static 'index/js/jqBootstrapValidation.js' %}"></script>
+    <script src="{% static 'index/js/contact_me.js' %}"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="{% static 'index/js/script.js' %}"></script>
+
+</body>
+
+</html>
